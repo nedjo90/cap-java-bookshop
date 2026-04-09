@@ -4,4 +4,5 @@ spring:
   config.activate.on-profile: default
   sql.init.platform: h2
 cds:
+  odata-v4.endpoint.path: "/api"
   data-source.auto-config.enabled: false
